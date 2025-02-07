@@ -1,0 +1,107 @@
+/* First Section */
+body {
+  background-color: whitesmoke;
+}
+/* #first_section, */
+#first_section {
+  display: flex;
+  text-align: center;
+  
+}
+p #logo-para {
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+#logo {
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px
+}
+#logo-pic {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+#logo-pic img {
+  width: 10%;
+  height: 15;
+}
+#screen-img{
+  margin: 0px 300px 0px 0px;
+}
+/* Section Two */
+#second_section {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  margin: 0px 0px 0px 200px;
+  
+}
+#head_title {
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+/* Section Third */
+#thired_section {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 0px 0px 0px 250px;
+}
+#message {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* section 4th */
+
+#section_four {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 0px 0px 0px 150px;
+}
+#four_message {
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
+}
+#four_image img{
+  padding-right: 100px;
+}
+#last_section {
+  text-align: center;
+  font-size: 18px;
+}
+#last_section a {
+  text-decoration: none;
+}
+#app img {
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #first_section,
+  #second_section,
+  #thired_section,
+  #section_four {
+    flex-wrap: wrap;
+    background-color: bisque;
+    font-size: 14px;
+  }
+  img {
+    width: 50%;
+    height: 50%;
+  }
+  #app img {
+    width: 50px;
+    height: auto;
+  }
+}
